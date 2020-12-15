@@ -132,6 +132,7 @@ var {
 }
 .period-mark {
   color: var(--blue);
+  font-size: inherit;
 }
 .Sbox-shadow {
   background: rgb(241, 243, 245);
@@ -144,8 +145,9 @@ var {
     rgb(255, 255, 255) -4.2px -1.16667px 8.4px;
 }
 .box-inner {
-  width: 1280px;
   margin: 0 auto;
+  width: 100%;
+  max-width: 60rem;
 }
 .home-box__title {
   font-size: 3rem;

@@ -116,37 +116,84 @@ export function Home() {
         <h2 className="home-box__title">
           Work Experience<span className="period-mark">.</span>
         </h2>
-        <HomeWorkList className="Mbox-shadow">
-          <li>
-            <div className="row-left">
-              <h3>
-                FMJ인터내셔널
-                <span className="period-mark">.</span>
-              </h3>
-              <span className="row__span">Web Publisher, designer</span>
-              <span className="row__span">더블유브이프로젝트팀</span>
-              <span className="row__span">2018.03 ~ 2019.04</span>
-            </div>
-            <div className="row-right">
-              <div class="project">
-                <h4>
-                  사내 퍼블리싱·UI개발·디자인<span class="period-mark">.</span>
-                </h4>
-                <h5>
-                  Description<span class="period-mark">.</span>
-                </h5>
-                <p>
-                  chopiee , wv project , fairplay , jemutshop web 4의사이트를
-                  단독 관리와 사용하고 있는 각종 사내 유지보수, 리뉴얼
-                  개선하였습니다. 상세페이지,룩북촬영 / 그래픽 , 배너디자인,sns,
-                  이벤트페이지 상품업데이트 ,신상의류디자인 , 컨셉기획,누끼및
-                  디테일,촬영과 코디,영상편집등을 하였습니다.
-                </p>
+        <HomeWorkBox className="Mbox-shadow">
+          <HomeWorkList>
+            <li>
+              <div className="row-left">
+                <h3>
+                  FMJ인터내셔널
+                  <span className="period-mark">.</span>
+                </h3>
+                <span className="row__span">Web Publisher, designer</span>
+                <span className="row__span">더블유브이프로젝트팀</span>
+                <span className="row__span">2018.03 ~ 2019.04</span>
               </div>
-              {createHomeProjectList}
-            </div>
-          </li>
-        </HomeWorkList>
+              <div className="row-right">
+                <div class="project">
+                  <h4>
+                    사내 퍼블리싱·UI개발·디자인
+                    <span class="period-mark">.</span>
+                  </h4>
+                  <h5>
+                    Description<span class="period-mark">.</span>
+                  </h5>
+                  <p>
+                    chopiee , wv project , fairplay , jemutshop web 4개의 사이트
+                    모두 혼자 맡아 진행했으며,
+                    <br />
+                    사용하고 있는 각종 사내 유지보수, 리뉴얼 개선하였고, 요구에
+                    맞는 다양한 새로운 기능을 구현했습니다.
+                    <br />
+                    상세페이지,룩북촬영 / 그래픽 , 배너디자인,sns, 이벤트페이지
+                    상품업데이트 , 신상의류디자인 , 컨셉기획,누끼및
+                    디테일,촬영과 코디,영상편집등을 하였습니다.
+                  </p>
+                </div>
+                {createHomeProjectList}
+              </div>
+            </li>
+          </HomeWorkList>
+          <HomeWorkList>
+            <li>
+              <div className="row-left">
+                <h3>
+                  LUSH KOREA
+                  <span className="period-mark">.</span>
+                </h3>
+                <span className="row__span">Web designer 아르바이트</span>
+                <span className="row__span">UI/UX팀</span>
+                <span className="row__span">2019.09~2019.10</span>
+              </div>
+              <div className="row-right">
+                <div class="project">
+                  <h4>
+                    사내 웹 디자인
+                    <span class="period-mark">.</span>
+                  </h4>
+                  <ul>
+                    <li className="didlst">템플릿 가이드 기반에 맞춰 제작</li>
+                    <li className="didlst">
+                      신제품 상세 페이지작업, 누끼 / 보정작업
+                    </li>
+                    <li className="didlst">신제품 목록 정리</li>
+                    <li className="didlst">성분 서치 후 제품의 성분 표시</li>
+                  </ul>
+                  <ul className="stack">
+                    <li className="Sbox-shadow">
+                      <span className="skll__icon skill__ps"></span>
+                      Photoshop
+                    </li>
+                    <li className="Sbox-shadow">
+                      <span className="skll__icon skill__ir"></span>
+                      Illustrator
+                    </li>
+                    <li className="Sbox-shadow">Excel</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </HomeWorkList>
+        </HomeWorkBox>
       </HomeSection>
     </HomeWrapper>
   );
@@ -178,11 +225,12 @@ const HomeContacts = styled.div`
   }
 `;
 const HomeSection = styled.section``;
+const HomeWorkBox = styled.div`
+  border-radius: 2rem;
+`;
 const HomeSkillList = styled.ul`
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  border-radius: 2rem;
   > li {
     padding: 0.5rem 1.5rem;
     border-radius: 3rem;
@@ -193,7 +241,6 @@ const HomeSkillList = styled.ul`
   }
 `;
 const HomeWorkList = styled.ul`
-  border-radius: 2rem;
   font-size: 1.1rem;
   > li {
     display: flex;
@@ -217,11 +264,13 @@ const HomeWorkList = styled.ul`
   & .stack > li {
     padding: 0.5rem 1.5rem;
     border-radius: 3rem;
-    width: 10%;
+    width: 90px;
     margin: 1.5rem 1rem 1.5rem 0rem;
     font-size: 0.8rem;
+    text-align: center;
     display: flex;
     align-items: center;
+    justify-content: center;
   }
   > li h3,
   > li h4 {
