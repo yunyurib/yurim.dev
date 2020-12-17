@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import fmjLogo from "../../assets/image/career-skill__list_fmj.png";
+import lushLogo from "../../assets/image/career-skill__list_lush.png";
 
 export function Career() {
   return (
@@ -12,11 +14,7 @@ export function Career() {
         <CareerSkillList>
           <div className="Mbox-shadow">
             <div>
-              <img
-                src="https://image.player.co.kr/resource/store/brand/201710111608526586.jpg"
-                alt=""
-                className="Sbox-shadow"
-              />
+              <img src={fmjLogo} alt="fmj로고" className="Sbox-shadow" />
               <h3>
                 FMJ인터내셔널<span>2018.03 ~ 2019.04</span>
               </h3>
@@ -35,11 +33,7 @@ export function Career() {
         <CareerSkillList>
           <div className="Mbox-shadow">
             <div>
-              <img
-                src="https://image.player.co.kr/resource/store/brand/201710111608526586.jpg"
-                alt=""
-                className="Sbox-shadow"
-              />
+              <img src={lushLogo} alt="lush로고" className="Sbox-shadow" />
               <h3>
                 LUSH KOREA<span>2019.09~2019.10</span>
               </h3>
@@ -53,7 +47,9 @@ export function Career() {
     </CareerWrapper>
   );
 }
-const CareerWrapper = styled.main``;
+const CareerWrapper = styled.main`
+  min-height: 90vh;
+`;
 const CareerSection = styled.section`
   padding-top: 4rem;
 `;
@@ -92,7 +88,10 @@ const CareerSkillList = styled.div`
     color: var(--blue);
   }
   & img {
-    border-radius: 50%;
     width: 6rem;
+    border-radius: 50%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    background: linear-gradient(145deg, #efefef, #ffffff);
   }
 `;
