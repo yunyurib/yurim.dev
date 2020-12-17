@@ -11,7 +11,7 @@ export function Career() {
         <h2 className="box__title">
           Career<span className="period-mark">.</span>
         </h2>
-        <CareerSkillList>
+        <CareerList>
           <div className="Mbox-shadow">
             <div>
               <img src={fmjLogo} alt="fmj로고" className="Sbox-shadow" />
@@ -19,18 +19,18 @@ export function Career() {
                 FMJ인터내셔널<span>2018.03 ~ 2019.04</span>
               </h3>
             </div>
-            <Link className="Sbox-shadow" to="/">
+            <Link className="Sbox-shadow" to="/fmj">
               Explore
             </Link>
           </div>
-        </CareerSkillList>
+        </CareerList>
       </CareerSection>
 
       <CareerSection className="box-inner">
         <h2 className="box__title">
           Experience<span className="period-mark">.</span>
         </h2>
-        <CareerSkillList>
+        <CareerList>
           <div className="Mbox-shadow">
             <div>
               <img src={lushLogo} alt="lush로고" className="Sbox-shadow" />
@@ -38,11 +38,11 @@ export function Career() {
                 LUSH KOREA<span>2019.09~2019.10</span>
               </h3>
             </div>
-            <Link className="Sbox-shadow" to="/">
+            <Link className="Sbox-shadow" to="/lush">
               Explore
             </Link>
           </div>
-        </CareerSkillList>
+        </CareerList>
       </CareerSection>
     </CareerWrapper>
   );
@@ -53,7 +53,7 @@ const CareerWrapper = styled.main`
 const CareerSection = styled.section`
   padding-top: 4rem;
 `;
-const CareerSkillList = styled.div`
+const CareerList = styled.div`
   display: flex;
   .Mbox-shadow {
     width: 50%;
