@@ -53,10 +53,10 @@ export function Fmj() {
               <span className="row__span">2018.03 ~ 2019.04</span>
             </div>
             <div className="row-right">
-              <div class="project">
+              <div className="project">
                 <h4 className="Sbox-shadow">
                   1. CHOPIEE 런칭, 유지보수 및 디자인
-                  <span class="period-mark">.</span>
+                  <span className="period-mark">.</span>
                 </h4>
                 <p>10-20대 여성을 타겟팅한 러블리한 무드의 온라인 멀티샵</p>
                 <p>- 개발언어 : html5, css3, Javascript, JQuery</p>
@@ -82,10 +82,10 @@ export function Fmj() {
                   : 상품업데이트 , 신상의류디자인 (100%)
                 </p>
               </div>
-              <div class="project">
+              <div className="project">
                 <h4 className="Sbox-shadow">
                   2. WV PROJECT 유지보수 및 디자인
-                  <span class="period-mark">.</span>
+                  <span className="period-mark">.</span>
                 </h4>
                 <p>
                   10-20대 여성을 타겟팅한 어린아이처럼 순수하고 천진난만한
@@ -120,10 +120,10 @@ export function Fmj() {
                 </p>
                 <p className="project__work__list">: 컨셉 기획, 기획서 (30%)</p>
               </div>
-              <div class="project">
+              <div className="project">
                 <h4 className="Sbox-shadow">
                   3. FAIR PLAY 유지보수 및 리뉴얼
-                  <span class="period-mark">.</span>
+                  <span className="period-mark">.</span>
                 </h4>
                 <p>20-30대 남성을 타겟팅한 스트릿패션 멀티샵</p>
                 <p>- 개발언어 : html5, css3, Javascript, JQuery</p>
@@ -149,10 +149,10 @@ export function Fmj() {
                   : 상품업데이트 , 신상의류디자인, 스타일리스트 (10%)
                 </p>
               </div>
-              <div class="project">
+              <div className="project">
                 <h4 className="Sbox-shadow">
                   4. JEMUT SHOP 유지보수 및 리뉴얼
-                  <span class="period-mark">.</span>
+                  <span className="period-mark">.</span>
                 </h4>
                 <p>
                   "하나를 사도 제대로"라는 모토로 입을수록 더욱 마음에 드는 옷을

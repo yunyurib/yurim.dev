@@ -43,7 +43,7 @@ export function Gnb() {
             className="Sbox-shadow"
           >
             <svg
-              class="w-6 h-6"
+              className="w-6 h-6"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"

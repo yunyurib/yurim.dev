@@ -15,10 +15,10 @@ export function Home() {
 
   const createHomeProjectList = homeProjectList.map((data, index) => {
     return (
-      <div class="project">
+      <div className="project">
         <h4>
           {data.title}
-          <span class="period-mark">.</span>
+          <span className="period-mark">.</span>
         </h4>
         <span className="time">{data.time}</span>
         <ul>
@@ -68,7 +68,7 @@ export function Home() {
             className="Sbox-shadow"
           >
             <svg
-              class="w-6 h-6"
+              className="w-6 h-6"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -90,7 +90,7 @@ export function Home() {
             className="Sbox-shadow"
           >
             <svg
-              class="w-6 h-6"
+              className="w-6 h-6"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -132,13 +132,13 @@ export function Home() {
                 <span className="row__span">2018.03 ~ 2019.04</span>
               </div>
               <div className="row-right">
-                <div class="project">
+                <div className="project">
                   <h4>
                     사내 퍼블리싱·UI개발·디자인
-                    <span class="period-mark">.</span>
+                    <span className="period-mark">.</span>
                   </h4>
                   <h5>
-                    Description<span class="period-mark">.</span>
+                    Description<span className="period-mark">.</span>
                   </h5>
                   <p>
                     chopiee , wv project , fairplay , jemutshop web 4개의 사이트
@@ -166,10 +166,10 @@ export function Home() {
                 <span className="row__span">2019.09~2019.10</span>
               </div>
               <div className="row-right">
-                <div class="project">
+                <div className="project">
                   <h4>
                     웹 디자인
-                    <span class="period-mark">.</span>
+                    <span className="period-mark">.</span>
                   </h4>
                   <ul>
                     <li className="didlst">템플릿 가이드 기반에 맞춰 제작</li>
@@ -204,10 +204,10 @@ export function Home() {
                 <span className="row__span">2019.10~2019.11</span>
               </div>
               <div className="row-right">
-                <div class="project">
+                <div className="project">
                   <h4>
                     사무, 디자인 보조
-                    <span class="period-mark">.</span>
+                    <span className="period-mark">.</span>
                   </h4>
                   <ul>
                     <li className="didlst">
@@ -252,10 +252,10 @@ export function Home() {
                 <span className="row__span">2019.12~2019.12</span>
               </div>
               <div className="row-right">
-                <div class="project">
+                <div className="project">
                   <h4>
                     잼페이스 Application
-                    <span class="period-mark">.</span>
+                    <span className="period-mark">.</span>
                   </h4>
                   <ul>
                     <li className="didlst">
@@ -293,10 +293,10 @@ export function Home() {
                 <span className="row__span">2020.04~2020.11</span>
               </div>
               <div className="row-right">
-                <div class="project">
+                <div className="project">
                   <h4>
                     실무과정
-                    <span class="period-mark">.</span>
+                    <span className="period-mark">.</span>
                   </h4>
                   <ul>
                     <li className="didlst">
@@ -335,10 +335,10 @@ export function Home() {
                 <span className="row__span">2017.07 취득</span>
               </div>
               <div className="row-right">
-                <div class="project">
+                <div className="project">
                   <h4>
                     GTQ 2급
-                    <span class="period-mark">.</span>
+                    <span className="period-mark">.</span>
                   </h4>
                 </div>
               </div>
@@ -352,10 +352,10 @@ export function Home() {
                 <span className="row__span">필기합격</span>
               </div>
               <div className="row-right">
-                <div class="project">
+                <div className="project">
                   <h4>
                     웹디자인 기능사
-                    <span class="period-mark">.</span>
+                    <span className="period-mark">.</span>
                   </h4>
                 </div>
               </div>
