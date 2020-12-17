@@ -54,8 +54,11 @@ export function Home() {
           FE 개발자 <span className="period-mark">윤유림</span>입니다.
         </h2>
         <p>
-          저는 서비스의 발전 및 개선을 통해 뿌듯함을 느끼는 것을 좋아합니다.
-          코드의 가치는 비즈니스적 가치를 창출할 수 있을 때 나온다고 생각합니다.
+          웹 프론트엔트에 관심이 많습니다. 여러 경험을 하면서 맡으면서 디자인
+          감각이 있는 프론트엔드 개발자를 지향하고 있습니다. 거의 모든
+          프로젝트를 깃허브를 활용해 관리하며 진행하고 있습니다. 원활한 소통의
+          협업과 코드리뷰를 통해 더욱 견고한 코드를 만드는 것에 가장 큰 의미를
+          둔 개발자 윤유림입니다.
         </p>
         <HomeContacts>
           <a
@@ -105,7 +108,7 @@ export function Home() {
         </HomeContacts>
       </HomeProfile>
       <HomeSection className="box-inner">
-        <h2 className="home-box__title">
+        <h2 className="box__title">
           Skill<span className="period-mark">.</span>
         </h2>
         <HomeSkillList className="Mbox-shadow">
@@ -113,7 +116,7 @@ export function Home() {
         </HomeSkillList>
       </HomeSection>
       <HomeSection className="box-inner">
-        <h2 className="home-box__title">
+        <h2 className="box__title">
           Work Experience<span className="period-mark">.</span>
         </h2>
         <HomeWorkBox className="Mbox-shadow">
@@ -152,8 +155,6 @@ export function Home() {
                 {createHomeProjectList}
               </div>
             </li>
-          </HomeWorkList>
-          <HomeWorkList>
             <li>
               <div className="row-left">
                 <h3>
@@ -167,7 +168,7 @@ export function Home() {
               <div className="row-right">
                 <div class="project">
                   <h4>
-                    사내 웹 디자인
+                    웹 디자인
                     <span class="period-mark">.</span>
                   </h4>
                   <ul>
@@ -192,7 +193,197 @@ export function Home() {
                 </div>
               </div>
             </li>
+            <li>
+              <div className="row-left">
+                <h3>
+                  LF
+                  <span className="period-mark">.</span>
+                </h3>
+                <span className="row__span">사무, 디자인 보조 아르바이트</span>
+                <span className="row__span">아동의류브랜드</span>
+                <span className="row__span">2019.10~2019.11</span>
+              </div>
+              <div className="row-right">
+                <div class="project">
+                  <h4>
+                    사무, 디자인 보조
+                    <span class="period-mark">.</span>
+                  </h4>
+                  <ul>
+                    <li className="didlst">
+                      조직 내부와 외부에서 요청하거나 필요한 업무를 지원하고
+                      관리하는 일 등 수행
+                    </li>
+                    <li className="didlst">
+                      효율적인 관리를 위한 서류 지원‧보조
+                    </li>
+                    <li className="didlst">
+                      {" "}
+                      구성원들의 업무 능률 향상을 위하여 사무기기 운용, 소모품,
+                      비품관리, 사무환경 유지 등의 업무를 실행하였습니다.
+                    </li>
+                    <li className="didlst">
+                      주의깊은 관찰, 문제해결 의지, 꼼꼼한 관리태도, 비품․
+                      소모품 파악
+                    </li>
+                  </ul>
+                  <ul className="stack">
+                    <li className="Sbox-shadow">
+                      <span className="skll__icon skill__ps"></span>
+                      Photoshop
+                    </li>
+                    <li className="Sbox-shadow">
+                      <span className="skll__icon skill__ir"></span>
+                      Illustrator
+                    </li>
+                    <li className="Sbox-shadow">Excel</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div className="row-left">
+                <h3>
+                  작당모의
+                  <span className="period-mark">.</span>
+                </h3>
+                <span className="row__span">업무보조 아르바이트</span>
+                <span className="row__span">잼페이스</span>
+                <span className="row__span">2019.12~2019.12</span>
+              </div>
+              <div className="row-right">
+                <div class="project">
+                  <h4>
+                    잼페이스 Application
+                    <span class="period-mark">.</span>
+                  </h4>
+                  <ul>
+                    <li className="didlst">
+                      조직 내부와 외부에서 요청하거나 필요한 업무를 지원하고
+                      관리하는 일 등 수행
+                    </li>
+                    <li className="didlst">
+                      효율적인 관리를 위한 서비스의 데이터베이스 입력.
+                    </li>
+                    <li className="didlst">영상서비스 정보 입력</li>
+                  </ul>
+                  <ul className="stack">
+                    <li className="Sbox-shadow">Slack</li>
+                    <li className="Sbox-shadow">Excel</li>
+                  </ul>
+                </div>
+              </div>
+            </li>
           </HomeWorkList>
+        </HomeWorkBox>
+      </HomeSection>
+      <HomeSection className="box-inner">
+        <h2 className="box__title">
+          Education<span className="period-mark">.</span>
+        </h2>
+        <HomeWorkBox className="Mbox-shadow">
+          <HomeWorkList>
+            <li>
+              <div className="row-left">
+                <h3>
+                  그린아트컴퓨터
+                  <span className="period-mark">.</span>
+                </h3>
+                <span className="row__span">Publisher, Front-end</span>
+                <span className="row__span">2020.04~2020.11</span>
+              </div>
+              <div className="row-right">
+                <div class="project">
+                  <h4>
+                    실무과정
+                    <span class="period-mark">.</span>
+                  </h4>
+                  <ul>
+                    <li className="didlst">
+                      NCS기반 과정, 기획과 설계, 디자인, HTML, CSS, Javascript,
+                      jQuery
+                    </li>
+                    <li className="didlst">
+                      리뉴얼을 통해 원래 있던 오류를 파악하고 바꾸어 문제를
+                      해결하며 사용 목적과 용도에 맞게 최적화하여 디자인하고
+                      효과적으로 구현
+                    </li>
+                    <li className="didlst">
+                      단순히 웹을 만드는 것이 아닌 실무에도 중요한, 파일을
+                      실속있게 정리하는 것과 수업이 아닌 인턴과정으로 배운다는
+                      마음가짐
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </HomeWorkList>
+        </HomeWorkBox>
+      </HomeSection>
+      <HomeSection className="box-inner">
+        <h2 className="box__title">
+          Certificate<span className="period-mark">.</span>
+        </h2>
+        <HomeWorkBox className="Mbox-shadow">
+          <HomeWorkList>
+            <li>
+              <div className="row-left">
+                <h3>
+                  한국산업인력공단
+                  <span className="period-mark">.</span>
+                </h3>
+                <span className="row__span">2017.07 취득</span>
+              </div>
+              <div className="row-right">
+                <div class="project">
+                  <h4>
+                    GTQ 2급
+                    <span class="period-mark">.</span>
+                  </h4>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div className="row-left">
+                <h3>
+                  한국산업인력공단
+                  <span className="period-mark">.</span>
+                </h3>
+                <span className="row__span">필기합격</span>
+              </div>
+              <div className="row-right">
+                <div class="project">
+                  <h4>
+                    웹디자인 기능사
+                    <span class="period-mark">.</span>
+                  </h4>
+                </div>
+              </div>
+            </li>
+          </HomeWorkList>
+        </HomeWorkBox>
+      </HomeSection>
+      <HomeSection className="box-inner">
+        <h2 className="box__title">
+          I am<span className="period-mark">.</span>
+        </h2>
+        <HomeWorkBox className="Mbox-shadow">
+          <p className="Iam">
+            웹 사이트들을 보며 웹에 호기심을 갖게 되었습니다. 처음에는 UI를
+            배우기 위해 독학으로 웹 디자인을 공부했고, HTML/CSS Markup까지
+            배우면서 움직이는 웹사이트가 재미가 있었고, 흥미가 생겨 Web
+            Publishing에 깊게 공부하여, 웹 퍼블리셔로서 기존 브랜드 담당과 신규
+            브랜드 웹 총괄로 일하여 실전 경험을 길렀습니다. 일하면서 코딩이란
+            분야가 매력적이고 더욱 깊게 배우고 많은 것을 해보고 싶어,
+            Front-End가 되고싶어졌습니다. 디자인 감각이 있는 프론트엔드 개발자가
+            되어 디자이너와 양방향 소통을 더 잘할 수 있다고 생각합니다.
+            학점은행제를 통한 컴퓨터공학 학사학위를 공부 중이며, Front-End
+            개발자로서 전문성을 갖추기 위해 ReactJS 공부하여 현재 사이트와{" "}
+            <a href="https://xururuca9797.github.io/yurim-world/">
+              (xururuca9797.github.io/yurim-world/)
+            </a>
+            에 적용해 개발하였습니다.
+          </p>
         </HomeWorkBox>
       </HomeSection>
     </HomeWrapper>
@@ -202,11 +393,17 @@ export function Home() {
 const HomeWrapper = styled.main``;
 const HomeProfile = styled.section`
   padding-top: 10rem;
+  > h2 {
+    font-size: 3rem;
+  }
+  > p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
 `;
 const HomeContacts = styled.div`
   display: flex;
   align-items: center;
-  justify-content: center;
   > a {
     display: flex;
     padding: 0.5rem 1.5rem;
@@ -227,10 +424,18 @@ const HomeContacts = styled.div`
 const HomeSection = styled.section``;
 const HomeWorkBox = styled.div`
   border-radius: 2rem;
+  & .Iam {
+    padding: 3rem 4rem;
+    font-size: 1.2rem;
+  }
+  & .Iam > a {
+    color: var(--blue);
+  }
 `;
 const HomeSkillList = styled.ul`
   display: flex;
   flex-wrap: wrap;
+  border-radius: 2rem;
   > li {
     padding: 0.5rem 1.5rem;
     border-radius: 3rem;
@@ -245,7 +450,10 @@ const HomeWorkList = styled.ul`
   > li {
     display: flex;
     padding: 3rem 4rem;
-    border-bottom: 1px solid #eee;
+    border-bottom: 2px solid #eee;
+  }
+  > li:last-child {
+    border: none;
   }
   & .row__span {
     display: block;

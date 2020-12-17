@@ -149,11 +149,11 @@ var {
   width: 100%;
   max-width: 60rem;
 }
-.home-box__title {
+.box__title {
   font-size: 3rem;
   margin: 4rem 0 2rem;
 }
-.home-box__title > span {
+.box__title > span {
   font-size: 3rem;
 }
 .skll__icon {
