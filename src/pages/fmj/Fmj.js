@@ -1,14 +1,25 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { FmjDetailItemData } from "./Fmj.data";
+import {
+  FmjDetailItemData,
+  FmjEventItemData,
+  FmjBannerItemData,
+} from "./Fmj.data";
 import { Morebutton } from "../../components/morebutton/Morebutton";
 
 export function Fmj() {
-  // More button event
+  // Fmj DetailItem More button
   const [FmjDetailItemLine, setFmjDetailItemLine] = useState(1);
   const fmjDetailItemLineCountEvent = () => {
     const count = FmjDetailItemLine + 1;
     setFmjDetailItemLine(count);
+  };
+
+  // Fmj EventlItem More button
+  const [FmjEventItemLine, setFmjEventItemLine] = useState(1);
+  const fmjEventItemLineCountEvent = () => {
+    const count = FmjEventItemLine + 1;
+    setFmjEventItemLine(count);
   };
 
   // Fmj DetailItem
@@ -34,6 +45,53 @@ export function Fmj() {
       </a>
     );
   });
+
+  // Fmj EventItem
+  const createFmjEventItem = FmjEventItemData.filter(
+    (data, index) => index <= FmjEventItemLine * 3 - 1
+  ).map((data, index) => {
+    return (
+      <a
+        key={index}
+        className="Mbox-shadow FmjlDesinList__Link"
+        href={data.href}
+        target="blank"
+      >
+        <img
+          className="FmjlDesinList__Img Sbox-shadow"
+          src={data.src}
+          alt={data.title}
+        />
+        <h3>
+          <span>{data.brand}</span>
+          {data.title}
+        </h3>
+      </a>
+    );
+  });
+
+  // Fmj BannerItem
+  const createFmjBannerItem = FmjBannerItemData.map((data, index) => {
+    return (
+      <a
+        key={index}
+        className="Mbox-shadow FmjlDesinList__Link"
+        href={data.href}
+        target="blank"
+      >
+        <img
+          className="FmjlDesinList__Img Sbox-shadow"
+          src={data.src}
+          alt={data.title}
+        />
+        <h3>
+          <span>{data.text}</span>
+          {data.title}
+        </h3>
+      </a>
+    );
+  });
+
   return (
     <FmjWrapper>
       <FmjSection className="box-inner">
@@ -188,13 +246,26 @@ export function Fmj() {
       </FmjSection>
       <FmjSection className="box-inner">
         <h2 className="box__title">
-          Detail page<span className="period-mark">.</span>
+          Detail Page<span className="period-mark">.</span>
         </h2>
         <p>의류디자인, 상세페이지, 그래픽디자인</p>
-        <FmjlDesinList>
-          {createFmjDetailItem}
-          <Morebutton btnEvent={fmjDetailItemLineCountEvent} />
-        </FmjlDesinList>
+        <FmjlDesinList>{createFmjDetailItem}</FmjlDesinList>
+        <Morebutton btnEvent={fmjDetailItemLineCountEvent} />
+      </FmjSection>
+      <FmjSection className="box-inner">
+        <h2 className="box__title">
+          Event Page<span className="period-mark">.</span>
+        </h2>
+        <p>이달의 혜택, 이벤트 디자인</p>
+        <FmjlDesinList>{createFmjEventItem}</FmjlDesinList>
+        <Morebutton btnEvent={fmjEventItemLineCountEvent} />
+      </FmjSection>
+      <FmjSection className="box-inner">
+        <h2 className="box__title">
+          Banner<span className="period-mark">.</span>
+        </h2>
+        <p>브랜드별 배너, SNS, 네이버광고</p>
+        <FmjlDesinList>{createFmjBannerItem}</FmjlDesinList>
       </FmjSection>
     </FmjWrapper>
   );
@@ -254,17 +325,17 @@ const FmjlList = styled.div`
 const FmjlDesinList = styled.div`
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   > .Mbox-shadow {
     display: block;
     border-radius: 3rem;
     padding: 2rem;
-    flex: 0;
     box-sizing: border-box;
     margin-bottom: 3rem;
   }
   & .FmjlDesinList__Img {
     width: 14rem;
+    height: 12rem;
     border-radius: 3rem;
     border: 2rem solid rgb(241, 243, 245);
     display: block;
