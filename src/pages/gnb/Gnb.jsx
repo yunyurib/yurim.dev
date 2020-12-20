@@ -16,7 +16,7 @@ export function Gnb() {
                 <Link to="/career">Career</Link>
               </li>
               <li>
-                <Link to="/">Portfolio</Link>
+                <Link to="/portfolio">Portfolio</Link>
               </li>
               <li>
                 <Link to="/">Contact</Link>
