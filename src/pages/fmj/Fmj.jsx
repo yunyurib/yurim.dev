@@ -270,7 +270,11 @@ export function Fmj() {
     </FmjWrapper>
   );
 }
-const FmjWrapper = styled.main``;
+const FmjWrapper = styled.main`
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+    padding: 0 2rem;
+  }
+`;
 const FmjSection = styled.section`
   padding-top: 4rem;
   & .box__title {
@@ -289,6 +293,9 @@ const FmjlList = styled.div`
     padding: 3rem 4rem;
     border-bottom: 2px solid #eee;
     border-radius: 3rem;
+    @media only screen and (min-width: 320px) and (max-width: 768px) {
+      display: block;
+    }
   }
   & h3 {
     font-size: 2rem;
@@ -300,6 +307,9 @@ const FmjlList = styled.div`
     padding: 0.3rem 2rem;
     border-bottom: 2px solid #eee;
     border-radius: 3rem;
+    @media only screen and (min-width: 320px) and (max-width: 768px) {
+      padding: 0.1rem 1rem;
+    }
   }
   > .Mbox-shadow > .row-left {
     flex-basis: 18rem;
@@ -332,6 +342,10 @@ const FmjlDesinList = styled.div`
     padding: 2rem;
     box-sizing: border-box;
     margin-bottom: 3rem;
+    @media only screen and (min-width: 320px) and (max-width: 768px) {
+      width: 45%;
+      padding: 0;
+    }
   }
   & .FmjlDesinList__Img {
     width: 14rem;
@@ -340,6 +354,11 @@ const FmjlDesinList = styled.div`
     border: 2rem solid rgb(241, 243, 245);
     display: block;
     box-sizing: border-box;
+    @media only screen and (min-width: 320px) and (max-width: 768px) {
+      width: 100%;
+      height: 50%;
+      border: none;
+    }
   }
   & h3 {
     text-align: center;

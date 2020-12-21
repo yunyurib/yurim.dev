@@ -390,11 +390,18 @@ export function Home() {
   );
 }
 
-const HomeWrapper = styled.main``;
+const HomeWrapper = styled.main`
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+    padding: 0 2rem;
+  }
+`;
 const HomeProfile = styled.section`
   padding-top: 10rem;
   > h2 {
     font-size: 3rem;
+    @media only screen and (min-width: 320px) and (max-width: 768px) {
+      font-size: 2rem;
+    }
   }
   > p {
     font-size: 1.5rem;
@@ -443,6 +450,9 @@ const HomeSkillList = styled.ul`
     font-size: 0.8rem;
     display: flex;
     align-items: center;
+    @media only screen and (min-width: 320px) and (max-width: 768px) {
+      margin: 0.7rem;
+    }
   }
 `;
 const HomeWorkList = styled.ul`
@@ -451,6 +461,10 @@ const HomeWorkList = styled.ul`
     display: flex;
     padding: 3rem 4rem;
     border-bottom: 2px solid #eee;
+    @media only screen and (min-width: 320px) and (max-width: 768px) {
+      display: block;
+      padding: 2rem 3rem;
+    }
   }
   > li:last-child {
     border: none;
@@ -468,6 +482,9 @@ const HomeWorkList = styled.ul`
   }
   & .stack {
     display: flex;
+    @media only screen and (min-width: 320px) and (max-width: 768px) {
+      flex-wrap: wrap;
+    }
   }
   & .stack > li {
     padding: 0.5rem 1.5rem;

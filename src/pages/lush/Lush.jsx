@@ -85,7 +85,11 @@ export function Lush() {
     </LushWrapper>
   );
 }
-const LushWrapper = styled.main``;
+const LushWrapper = styled.main`
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+    padding: 0 2rem;
+  }
+`;
 const LushSection = styled.section`
   padding-top: 4rem;
   & .box__title {
@@ -104,6 +108,9 @@ const LushList = styled.div`
     padding: 3rem 4rem;
     border-bottom: 2px solid #eee;
     border-radius: 3rem;
+    @media only screen and (min-width: 320px) and (max-width: 768px) {
+      display: block;
+    }
   }
   & h3 {
     font-size: 2rem;
@@ -147,6 +154,10 @@ const LushDesinList = styled.div`
     padding: 2rem;
     box-sizing: border-box;
     margin-bottom: 3rem;
+    @media only screen and (min-width: 320px) and (max-width: 768px) {
+      width: 45%;
+      padding: 0;
+    }
   }
   & .LushDesinList__Img {
     width: 14rem;
@@ -155,6 +166,11 @@ const LushDesinList = styled.div`
     border: 2rem solid rgb(241, 243, 245);
     display: block;
     box-sizing: border-box;
+    @media only screen and (min-width: 320px) and (max-width: 768px) {
+      width: 100%;
+      height: 50%;
+      border: none;
+    }
   }
   & h3 {
     text-align: center;

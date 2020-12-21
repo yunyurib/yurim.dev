@@ -95,6 +95,10 @@ const GnbWrapper = styled.header`
   border-bottom-left-radius: 2rem;
   border-bottom-right-radius: 2rem;
   z-index: 999;
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+    padding: 0 0.5rem;
+    box-sizing: border-box;
+  }
 `;
 
 const GnbBox = styled.div`
@@ -108,6 +112,9 @@ const GnbHeader = styled.div`
 `;
 const GnbLogo = styled.h1`
   padding: 7px 25px;
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+    padding: 0;
+  }
   > a {
     font-size: 2rem;
   }
@@ -133,6 +140,9 @@ const GnbLink = styled.div`
     padding: 0.7rem 0.8rem 0.5rem 0.8rem;
     margin: 0.5rem;
     border-radius: 50%;
+    @media only screen and (min-width: 320px) and (max-width: 768px) {
+      padding: 0;
+    }
   }
   > a > img {
     width: 20px;

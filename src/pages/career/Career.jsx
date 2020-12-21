@@ -48,6 +48,9 @@ export function Career() {
 }
 const CareerWrapper = styled.main`
   min-height: 90vh;
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+    padding: 0 2rem;
+  }
 `;
 const CareerSection = styled.section`
   padding-top: 4rem;
@@ -58,6 +61,9 @@ const CareerList = styled.div`
     width: 50%;
     padding: 2rem;
     border-radius: 2rem;
+    @media only screen and (min-width: 320px) and (max-width: 768px) {
+      width: 100%;
+    }
   }
   .Mbox-shadow > div {
     display: flex;

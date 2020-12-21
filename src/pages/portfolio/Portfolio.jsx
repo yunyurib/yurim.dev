@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 
 import { Morebutton } from "../../components/morebutton/Morebutton";
@@ -25,7 +25,8 @@ export function Portfolio() {
         </div>
         <div className="leftBox">
           <h3>
-          {data.title}<span className="period-mark">.</span>
+            {data.title}
+            <span className="period-mark">.</span>
           </h3>
           <p>- {data.days}</p>
           <p>- {data.purpose}</p>
@@ -44,18 +45,10 @@ export function Portfolio() {
   return (
     <PortfolioWrapper>
       <PortfolioNav className="box-inner">
-        <div className="Sbox-shadow act">
-          all
-        </div>
-        <div className="Sbox-shadow">
-          renewal
-        </div>
-        <div className="Sbox-shadow">
-          project
-        </div>
-        <div className="Sbox-shadow">
-          markup
-        </div>
+        <div className="Sbox-shadow act">all</div>
+        <div className="Sbox-shadow">renewal</div>
+        <div className="Sbox-shadow">project</div>
+        <div className="Sbox-shadow">markup</div>
       </PortfolioNav>
       <PortfolioSection className="box-inner">
         <h2>Portfolio</h2>
@@ -68,15 +61,29 @@ export function Portfolio() {
     </PortfolioWrapper>
   );
 }
-const PortfolioWrapper = styled.main``;
+const PortfolioWrapper = styled.main`
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+    padding: 0 2rem;
+  }
+`;
 const PortfolioNav = styled.nav`
   padding-top: 7rem;
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+    padding-top: 6rem;
+  }
   > div {
     border-radius: 2rem;
     display: inline-block;
     padding: 0.5rem 3rem;
     margin: 0.5rem 1rem;
     cursor: pointer;
+    @media only screen and (min-width: 320px) and (max-width: 768px) {
+      margin: 0 0.5rem;
+      width: 20%;
+      box-sizing: border-box;
+      text-align: center;
+      padding: 0.5rem;
+    }
   }
   & .act {
     color: var(--blue);
@@ -99,6 +106,9 @@ const PortfolioItem = styled.li`
   padding: 2rem;
   border-radius: 2rem;
   margin-bottom: 3rem;
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+    display: block;
+  }
   & h3 {
     font-size: 3rem;
   }
@@ -112,10 +122,20 @@ const PortfolioItem = styled.li`
     padding: 1.5rem;
     border-radius: 2rem;
     margin-right: 3rem;
+    @media only screen and (min-width: 320px) and (max-width: 768px) {
+      width: 100%;
+      padding: 0;
+      border-radius: 2rem;
+      margin-right: 0;
+    }
   }
   & .rightBox img {
     width: 100%;
     border-radius: 1.5rem;
+    @media only screen and (min-width: 320px) and (max-width: 768px) {
+      background: none;
+      box-shadow: none;
+    }
   }
   & .leftBox p {
     line-height: 2rem;
@@ -125,8 +145,14 @@ const PortfolioItem = styled.li`
     display: inline-block;
     padding: 0.5rem 3rem;
     margin: 1rem;
+    @media only screen and (min-width: 320px) and (max-width: 768px) {
+      padding: 0.5rem 0rem;
+      width: 35%;
+      box-sizing: border-box;
+      text-align: center;
+    }
   }
-  & .leftBox a:hover{
-    color:var(--blue);
+  & .leftBox a:hover {
+    color: var(--blue);
   }
 `;
