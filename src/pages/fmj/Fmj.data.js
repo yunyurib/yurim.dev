@@ -1,4 +1,4 @@
-import cpbanner from "../../assets/image/cpbanner21.jpg";
+import Img from "../../assets/Image";
 
 export const FmjDetailItemData = [
   {
@@ -204,7 +204,7 @@ export const FmjBannerItemData = [
   {
     title: "chopiee",
     href: "http://yurimxu.dothome.co.kr/web/banner/cp_banner.html",
-    src: cpbanner,
+    src: Img.cpbanner,
     text: "배너디자인",
   },
   {

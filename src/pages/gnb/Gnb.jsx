@@ -1,17 +1,42 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState, useRef, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import styled from "styled-components";
 
 export function Gnb() {
+  const location = useLocation();
+  const gnbWrapperRef = useRef();
+  const [locationPathName, setLocationPathName] = useState(location.pathname);
+
+  useEffect(() => {
+    setLocationPathName(location.pathname);
+  }, [location]);
+
+  useEffect(() => {
+    const linkTags = gnbWrapperRef.current.getElementsByTagName("a");
+    if (locationPathName !== "/") {
+      Object.values(linkTags).forEach((item) => {
+        const linkTagsHref = item.href;
+        const checkTagHref = linkTagsHref.match(locationPathName);
+        if (checkTagHref) {
+          item.style.color = "var(--blue)";
+        } else {
+          item.style.color = "#000";
+        }
+      });
+    }
+  }, [locationPathName]);
+
   return (
     <GnbWrapper className="Mbox-shadow">
       <GnbBox className="box-inner">
         <GnbHeader>
           <GnbLogo>
-            <Link to="/">😊</Link>
+            <Link exact to="/">
+              😊
+            </Link>
           </GnbLogo>
           <GnbMenu>
-            <ul>
+            <ul ref={gnbWrapperRef}>
               <li>
                 <Link to="/career">Career</Link>
               </li>
@@ -19,7 +44,9 @@ export function Gnb() {
                 <Link to="/portfolio">Portfolio</Link>
               </li>
               <li>
-                <Link to="/">Contact</Link>
+                <Link exact to="/">
+                  Contact
+                </Link>
               </li>
             </ul>
           </GnbMenu>

@@ -1,19 +1,22 @@
 import React,{useState} from "react";
-import { Link } from "react-router-dom";
 import styled from "styled-components";
 
 import { Morebutton } from "../../components/morebutton/Morebutton";
-import { PortfolioRenewalData } from "./Portfolio.data";
+import { PortfolioData } from "./Portfolio.data";
 
 export function Portfolio() {
-  const [PortfolioRenewalItemLine, setPortfolioRenewalItemLine] = useState(1);
-  const PortfolioRenewalItemLineEvent = () => {
-    const count = PortfolioRenewalItemLine + 1;
-    setPortfolioRenewalItemLine(count);
+  // const [currentCategory, setCurrentCategory] = useState('all');
+
+  // more button
+  const [PortfolioItemLine, setPortfolioItemLine] = useState(1);
+  const PortfolioItemLineEvent = () => {
+    const count = PortfolioItemLine + 1;
+    setPortfolioItemLine(count);
   };
 
-  const createPortfolioRenewalItem = PortfolioRenewalData.filter(
-    (data, index) => index <= PortfolioRenewalItemLine * 3 - 1
+  // createPortfolioItem li
+  const createPortfolioItem = PortfolioData.filter(
+    (data, index) => index <= PortfolioItemLine * 3 - 1
   ).map((data, index) => {
     return (
       <PortfolioItem className="Mbox-shadow">
@@ -57,8 +60,9 @@ export function Portfolio() {
       <PortfolioSection className="box-inner">
         <h2>Portfolio</h2>
         <PortfolioList>
-          {createPortfolioRenewalItem}
-          <Morebutton btnEvent={PortfolioRenewalItemLineEvent} />
+          {/* {currentCategory === 'all' | currentCategory === 'renewal' && {createPortfolioItem}} */}
+          {createPortfolioItem}
+          <Morebutton btnEvent={PortfolioItemLineEvent} />
         </PortfolioList>
       </PortfolioSection>
     </PortfolioWrapper>

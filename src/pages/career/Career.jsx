@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import fmjLogo from "../../assets/image/career-skill__list_fmj.png";
-import lushLogo from "../../assets/image/career-skill__list_lush.png";
+import Img from "../../assets/Image";
 
 export function Career() {
   return (
@@ -14,7 +13,7 @@ export function Career() {
         <CareerList>
           <div className="Mbox-shadow">
             <div>
-              <img src={fmjLogo} alt="fmj로고" className="Sbox-shadow" />
+              <img src={Img.fmjLogo} alt="fmj로고" className="Sbox-shadow" />
               <h3>
                 FMJ인터내셔널<span>2018.03 ~ 2019.04</span>
               </h3>
@@ -33,7 +32,7 @@ export function Career() {
         <CareerList>
           <div className="Mbox-shadow">
             <div>
-              <img src={lushLogo} alt="lush로고" className="Sbox-shadow" />
+              <img src={Img.lushLogo} alt="lush로고" className="Sbox-shadow" />
               <h3>
                 LUSH KOREA<span>2019.09~2019.10</span>
               </h3>
