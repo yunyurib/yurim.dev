@@ -6,4 +6,5 @@ export * from "./career/Career";
 export * from "./fmj/Fmj";
 export * from "./lush/Lush";
 export * from "./portfolio/Portfolio";
+export * from "./contact/Contact";
 export * from "./footer/Footer";
