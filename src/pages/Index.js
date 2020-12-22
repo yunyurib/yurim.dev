@@ -1,6 +1,6 @@
 export * from "./routes/Routes";
 export * from "./gnb/Gnb";
-export * from "../components/ScrollTopButton";
+export * from "../components/scrolltopbutton/ScrollTopButton";
 export * from "./home/Home";
 export * from "./career/Career";
 export * from "./fmj/Fmj";

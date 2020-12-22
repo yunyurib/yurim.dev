@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import Img from "../../assets/Image";
+import { LogoImg_List } from "../../assets/Image";
 
 export function Career() {
   return (
@@ -13,7 +13,11 @@ export function Career() {
         <CareerList>
           <div className="Mbox-shadow">
             <div>
-              <img src={Img.fmjLogo} alt="fmj로고" className="Sbox-shadow" />
+              <img
+                src={LogoImg_List.fmjLogo}
+                alt="fmj로고"
+                className="Sbox-shadow"
+              />
               <h3>
                 FMJ인터내셔널<span>2018.03 ~ 2019.04</span>
               </h3>
@@ -32,7 +36,11 @@ export function Career() {
         <CareerList>
           <div className="Mbox-shadow">
             <div>
-              <img src={Img.lushLogo} alt="lush로고" className="Sbox-shadow" />
+              <img
+                src={LogoImg_List.lushLogo}
+                alt="lush로고"
+                className="Sbox-shadow"
+              />
               <h3>
                 LUSH KOREA<span>2019.09~2019.10</span>
               </h3>

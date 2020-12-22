@@ -1,9 +1,9 @@
-import Img from "../../assets/Image";
+import { SiteImg_List } from "../../assets/Image";
 
 export const PortfolioData = [
   {
     title: "yurim.dev",
-    imgSrc: Img.YurimDev,
+    imgSrc: SiteImg_List.YurimDev,
     link: "https://xururuca9797.github.io/yurim.dev",
     pdf: "pdf링크",
     days: "2020.12.18 ~ ",
@@ -13,7 +13,7 @@ export const PortfolioData = [
   },
   {
     title: "eggslut",
-    imgSrc: Img.Eggslut,
+    imgSrc: SiteImg_List.Eggslut,
     link: "https://xururuca9797.github.io/eggslut/",
     pdf: "pdf링크",
     days: "2020.12.04 ~ 2020.12.04",
@@ -23,7 +23,7 @@ export const PortfolioData = [
   },
   {
     title: "ellesse",
-    imgSrc: Img.Ellesse,
+    imgSrc: SiteImg_List.Ellesse,
     link: "http://yurimxu.dothome.co.kr/web/renewal/ellesse/",
     pdf: "pdf링크",
     days: "2020.09.22 ~ 2020.09.24",
@@ -33,7 +33,7 @@ export const PortfolioData = [
   },
   {
     title: "benjerry",
-    imgSrc: Img.Benjerry,
+    imgSrc: SiteImg_List.Benjerry,
     link: "http://yurimxu.dothome.co.kr/web/renewal/benJerrys/",
     pdf: "pdf링크",
     days: "2020.02.02",
@@ -43,7 +43,7 @@ export const PortfolioData = [
   },
   {
     title: "solbeach",
-    imgSrc: Img.Yangyangsolbeach,
+    imgSrc: SiteImg_List.Yangyangsolbeach,
     link: "http://yurimxu.dothome.co.kr/web/renewal/yangyang_solbeach/",
     pdf: "pdf링크",
     days: "2020.02.02",
@@ -53,7 +53,7 @@ export const PortfolioData = [
   },
   {
     title: "miero",
-    imgSrc: Img.Miero,
+    imgSrc: SiteImg_List.Miero,
     link: "http://yurimxu.dothome.co.kr/web/miero/",
     pdf: "pdf링크",
     days: "2020.02.02",
@@ -63,7 +63,7 @@ export const PortfolioData = [
   },
   {
     title: "Bomapp",
-    imgSrc: Img.Bomapp,
+    imgSrc: SiteImg_List.Bomapp,
     link: "http://yurimxu.dothome.co.kr/web/bomapp/",
     pdf: "pdf링크",
     days: "2020.02.02",
@@ -73,7 +73,7 @@ export const PortfolioData = [
   },
   {
     title: "mashup",
-    imgSrc: Img.Mashup,
+    imgSrc: SiteImg_List.Mashup,
     link: "https://xururuca9797.github.io/mashup_site/",
     pdf: "pdf링크",
     days: "2020.02.02",
@@ -83,7 +83,7 @@ export const PortfolioData = [
   },
   {
     title: "piecetogethersta...",
-    imgSrc: Img.Piecetogetherstation,
+    imgSrc: SiteImg_List.Piecetogetherstation,
     link: "http://skin-mobile5.xururuca97.cafe24.com/",
     pdf: "pdf링크",
     days: "2020.02.02",

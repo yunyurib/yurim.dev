@@ -6,7 +6,7 @@ import { homeSkillItem, homeProjectList } from "./Home.data";
 export function Home() {
   const createHomeSkillItem = homeSkillItem.map((data, index) => {
     return (
-      <li className="Sbox-shadow">
+      <li className="Sbox-shadow" key={index}>
         <span className={data.name}></span>
         {data.title}
       </li>
@@ -15,7 +15,7 @@ export function Home() {
 
   const createHomeProjectList = homeProjectList.map((data, index) => {
     return (
-      <div className="project">
+      <div className="project" key={index}>
         <h4>
           {data.title}
           <span className="period-mark">.</span>

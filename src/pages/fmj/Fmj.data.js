@@ -1,4 +1,4 @@
-import Img from "../../assets/Image";
+import { DesignImg_List } from "../../assets/Image";
 
 export const FmjDetailItemData = [
   {
@@ -204,7 +204,7 @@ export const FmjBannerItemData = [
   {
     title: "chopiee",
     href: "http://yurimxu.dothome.co.kr/web/banner/cp_banner.html",
-    src: Img.cpbanner,
+    src: DesignImg_List.cpbanner,
     text: "배너디자인",
   },
   {
