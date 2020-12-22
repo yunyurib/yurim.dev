@@ -1,59 +1,86 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
 
 import { Morebutton } from "../../components/morebutton/Morebutton";
 import { PortfolioData } from "./Portfolio.data";
+import { CATEGORY_LIST } from "../../type/typeList";
 
 export function Portfolio() {
-  // const [currentCategory, setCurrentCategory] = useState('all');
+  // 메뉴클릭상태
+  const [currentCategory, setCurrentCategory] = useState("all");
+  const [PortfolioItemLine, setPortfolioItemLine] = useState(1);
+
+  // 클릭한 것의 이너텍스트
+  const clickNav = (event) => {
+    const navInnerText = event.target.innerText;
+    // const checkNamName = currentCategory.match()
+    setCurrentCategory(navInnerText);
+    setPortfolioItemLine(1);
+  };
+
+  // category list component
+  const categoryList = CATEGORY_LIST.map((cate, index) => {
+    return (
+      <PortfolioNavItem
+        key={index}
+        className="Sbox-shadow"
+        onClick={clickNav}
+        color={currentCategory === cate ? "var(--blue)" : "#000"}
+      >
+        {cate}
+      </PortfolioNavItem>
+    );
+  });
 
   // more button
-  const [PortfolioItemLine, setPortfolioItemLine] = useState(1);
   const PortfolioItemLineEvent = () => {
     const count = PortfolioItemLine + 1;
     setPortfolioItemLine(count);
   };
 
+  useEffect(() => {
+    console.log("PortfolioItemLine", PortfolioItemLine);
+  }, [PortfolioItemLine]);
+
   // createPortfolioItem li
-  const createPortfolioItem = PortfolioData.filter(
-    (data, index) => index <= PortfolioItemLine * 3 - 1
-  ).map((data, index) => {
-    return (
-      <PortfolioItem className="Mbox-shadow">
-        <div className="rightBox Sbox-shadow">
-          <img src={data.imgSrc} alt={data.title} className="Sbox-shadow" />
-        </div>
-        <div className="leftBox">
-          <h3>
-            {data.title}
-            <span className="period-mark">.</span>
-          </h3>
-          <p>- {data.days}</p>
-          <p>- {data.purpose}</p>
-          <p>- {data.keyword}</p>
-          <p>- 개발언어 : {data.languageDevelopment}</p>
-          <a href={data.link} title={data.title} className="Sbox-shadow">
-            PDF
-          </a>
-          <a href={data.pdf} title={data.title} className="Sbox-shadow">
-            Link
-          </a>
-        </div>
-      </PortfolioItem>
-    );
-  });
+  const createPortfolioItem = PortfolioData.filter((data) => {
+    return currentCategory === "all" ? data : currentCategory === data.purpose;
+  })
+    .filter((data, index) => index <= PortfolioItemLine * 3 - 1)
+    .map((data, index) => {
+      console.log(index);
+      return (
+        <PortfolioItem key={index} className="Mbox-shadow">
+          <div className="rightBox Sbox-shadow">
+            <img src={data.imgSrc} alt={data.title} className="Sbox-shadow" />
+          </div>
+          <div className="leftBox">
+            <h3>
+              {data.title}
+              <span className="period-mark">.</span>
+            </h3>
+            <p>- {data.days}</p>
+            <p>- {data.purpose}</p>
+            <p>- {data.keyword}</p>
+            <p>- 개발언어 : {data.languageDevelopment}</p>
+            <a href={data.link} title={data.title} className="Sbox-shadow">
+              PDF
+            </a>
+            <a href={data.pdf} title={data.title} className="Sbox-shadow">
+              Link
+            </a>
+          </div>
+        </PortfolioItem>
+      );
+    });
   return (
     <PortfolioWrapper>
       <PortfolioNav className="box-inner">
-        <div className="Sbox-shadow act">all</div>
-        <div className="Sbox-shadow">renewal</div>
-        <div className="Sbox-shadow">project</div>
-        <div className="Sbox-shadow">markup</div>
+        <PortfolioNavList>{categoryList}</PortfolioNavList>
       </PortfolioNav>
       <PortfolioSection className="box-inner">
         <h2>Portfolio</h2>
         <PortfolioList>
-          {/* {currentCategory === 'all' | currentCategory === 'renewal' && {createPortfolioItem}} */}
           {createPortfolioItem}
           <Morebutton btnEvent={PortfolioItemLineEvent} />
         </PortfolioList>
@@ -71,24 +98,23 @@ const PortfolioNav = styled.nav`
   @media only screen and (min-width: 320px) and (max-width: 768px) {
     padding-top: 6rem;
   }
-  > div {
-    border-radius: 2rem;
-    display: inline-block;
-    padding: 0.5rem 3rem;
-    margin: 0.5rem 1rem;
-    cursor: pointer;
-    @media only screen and (min-width: 320px) and (max-width: 768px) {
-      margin: 0 0.5rem;
-      width: 20%;
-      box-sizing: border-box;
-      text-align: center;
-      padding: 0.5rem;
-    }
+`;
+const PortfolioNavList = styled.ul`
+  @media only screen and (min-width: 320px) and (max-width: 768px) {
+    margin: 0 0.5rem;
+    width: 20%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0.5rem;
   }
-  & .act {
-    color: var(--blue);
-    font-weight: bold;
-  }
+`;
+const PortfolioNavItem = styled.li`
+  border-radius: 2rem;
+  display: inline-block;
+  padding: 0.5rem 3rem;
+  margin: 0.5rem 1rem;
+  cursor: pointer;
+  color: ${(props) => props.color};
 `;
 const PortfolioSection = styled.section`
   padding-top: 1rem;

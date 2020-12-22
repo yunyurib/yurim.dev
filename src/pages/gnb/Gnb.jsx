@@ -13,17 +13,19 @@ export function Gnb() {
 
   useEffect(() => {
     const linkTags = gnbWrapperRef.current.getElementsByTagName("a");
-    if (locationPathName !== "/") {
-      Object.values(linkTags).forEach((item) => {
-        const linkTagsHref = item.href;
-        const checkTagHref = linkTagsHref.match(locationPathName);
+    Object.values(linkTags).forEach((item) => {
+      const linkTagsHref = item.href;
+      const checkTagHref = linkTagsHref.match(locationPathName);
+      if (locationPathName !== "/") {
         if (checkTagHref) {
           item.style.color = "var(--blue)";
         } else {
           item.style.color = "#000";
         }
-      });
-    }
+      } else {
+        item.style.color = "#000";
+      }
+    });
   }, [locationPathName]);
 
   return (
@@ -44,9 +46,7 @@ export function Gnb() {
                 <Link to="/portfolio">Portfolio</Link>
               </li>
               <li>
-                <Link exact to="/Contact">
-                  Contact
-                </Link>
+                <Link to="/Contact">Contact</Link>
               </li>
             </ul>
           </GnbMenu>
