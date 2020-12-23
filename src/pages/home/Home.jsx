@@ -67,20 +67,7 @@ export function Home() {
             target="blank"
             className="Sbox-shadow"
           >
-            <svg
-              className="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-              ></path>
-            </svg>
+            📪
             <span className="period-mark">zeze-@naver.com</span>
           </a>
           <a
@@ -89,20 +76,7 @@ export function Home() {
             target="blank"
             className="Sbox-shadow"
           >
-            <svg
-              className="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"
-              ></path>
-            </svg>
+            💬
             <span className="period-mark">open.kakao</span>
           </a>
         </HomeContacts>
@@ -416,10 +390,6 @@ const HomeContacts = styled.div`
     padding: 0.5rem 1.5rem;
     border-radius: 3rem;
     margin: 0.5rem;
-  }
-  > a > svg {
-    width: 14px;
-    padding-right: 10px;
   }
   > a > span {
     transition: 0.3s ease-out;
