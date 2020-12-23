@@ -17,7 +17,7 @@ export function Gnb() {
     Object.values(linkTags).forEach((item) => {
       const linkTagsHref = item.href;
       const checkTagHref = linkTagsHref.match(locationPathName);
-      if (locationPathName !== "/") {
+      if (locationPathName !== "/yurim.dev/") {
         if (checkTagHref) {
           item.style.color = "var(--blue)";
         } else {
@@ -41,13 +41,19 @@ export function Gnb() {
           <GnbMenu>
             <ul ref={gnbWrapperRef}>
               <li>
-                <Link to="/yurim.dev/career">Career</Link>
+                <Link exact to="/yurim.dev/career">
+                  Career
+                </Link>
               </li>
               <li>
-                <Link to="/yurim.dev/portfolio">Portfolio</Link>
+                <Link exact to="/yurim.dev/portfolio">
+                  Portfolio
+                </Link>
               </li>
               <li>
-                <Link to="/yurim.dev/Contact">Contact</Link>
+                <Link exact to="/yurim.dev/Contact">
+                  Contact
+                </Link>
               </li>
             </ul>
           </GnbMenu>

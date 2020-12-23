@@ -6,14 +6,11 @@ import { PortfolioData } from "./Portfolio.data";
 import { CATEGORY_LIST } from "../../type/typeList";
 
 export function Portfolio() {
-  // 메뉴클릭상태
   const [currentCategory, setCurrentCategory] = useState("all");
   const [PortfolioItemLine, setPortfolioItemLine] = useState(1);
 
-  // 클릭한 것의 이너텍스트
   const clickNav = (event) => {
     const navInnerText = event.target.innerText;
-    // const checkNamName = currentCategory.match()
     setCurrentCategory(navInnerText);
     setPortfolioItemLine(1);
   };

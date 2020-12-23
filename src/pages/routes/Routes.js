@@ -7,8 +7,8 @@ export const Routes = () => {
     <RoutesWrapper>
       <Route exact path="/yurim.dev/" component={Home} />
       <Route exact path="/yurim.dev/career" component={Career} />
-      <Route exact path="/yurim.dev/fmj" component={Fmj} />
-      <Route exact path="/yurim.dev/lush" component={Lush} />
+      <Route exact path="/yurim.dev/career/fmj" component={Fmj} />
+      <Route exact path="/yurim.dev/career/lush" component={Lush} />
       <Route exact path="/yurim.dev/portfolio" component={Portfolio} />
       <Route exact path="/yurim.dev/contact" component={Contact} />
     </RoutesWrapper>

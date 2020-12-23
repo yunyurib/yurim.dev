@@ -22,7 +22,7 @@ export function Career() {
                 FMJ인터내셔널<span>2018.03 ~ 2019.04</span>
               </h3>
             </div>
-            <Link className="Sbox-shadow" to="/fmj">
+            <Link className="Sbox-shadow" to="/yurim.dev/career/fmj">
               Explore
             </Link>
           </div>
@@ -45,7 +45,7 @@ export function Career() {
                 LUSH KOREA<span>2019.09~2019.10</span>
               </h3>
             </div>
-            <Link className="Sbox-shadow" to="/lush">
+            <Link className="Sbox-shadow" to="/yurim.dev/career/lush">
               Explore
             </Link>
           </div>
