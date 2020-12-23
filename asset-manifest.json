@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/yurim.dev/static/css/main.cbc6a2d6.chunk.css",
+    "main.js": "/yurim.dev/static/js/main.6dc7c961.chunk.js",
+    "main.js.map": "/yurim.dev/static/js/main.6dc7c961.chunk.js.map",
+    "runtime-main.js": "/yurim.dev/static/js/runtime-main.368f4d1d.js",
+    "runtime-main.js.map": "/yurim.dev/static/js/runtime-main.368f4d1d.js.map",
+    "static/js/2.18d75576.chunk.js": "/yurim.dev/static/js/2.18d75576.chunk.js",
+    "static/js/2.18d75576.chunk.js.map": "/yurim.dev/static/js/2.18d75576.chunk.js.map",
+    "static/js/3.5cf3b94d.chunk.js": "/yurim.dev/static/js/3.5cf3b94d.chunk.js",
+    "static/js/3.5cf3b94d.chunk.js.map": "/yurim.dev/static/js/3.5cf3b94d.chunk.js.map",
+    "index.html": "/yurim.dev/index.html",
+    "static/css/main.cbc6a2d6.chunk.css.map": "/yurim.dev/static/css/main.cbc6a2d6.chunk.css.map",
+    "static/js/2.18d75576.chunk.js.LICENSE.txt": "/yurim.dev/static/js/2.18d75576.chunk.js.LICENSE.txt",
+    "static/media/Bomapp.557e7f2a.png": "/yurim.dev/static/media/Bomapp.557e7f2a.png",
+    "static/media/Eggslut.99783e83.png": "/yurim.dev/static/media/Eggslut.99783e83.png",
+    "static/media/index.css": "/yurim.dev/static/media/about-skill-logos.s.d0741547.png",
+    "static/media/benjerry.b2e0273f.png": "/yurim.dev/static/media/benjerry.b2e0273f.png",
+    "static/media/career-skill__list_fmj.2331170c.png": "/yurim.dev/static/media/career-skill__list_fmj.2331170c.png",
+    "static/media/career-skill__list_lush.7c13cc93.png": "/yurim.dev/static/media/career-skill__list_lush.7c13cc93.png",
+    "static/media/cpbanner21.97246c1f.jpg": "/yurim.dev/static/media/cpbanner21.97246c1f.jpg",
+    "static/media/ellesse.02e453a1.png": "/yurim.dev/static/media/ellesse.02e453a1.png",
+    "static/media/mashup.603c881c.png": "/yurim.dev/static/media/mashup.603c881c.png",
+    "static/media/miero.3dc861e0.png": "/yurim.dev/static/media/miero.3dc861e0.png",
+    "static/media/piecetogetherstation.d8176648.png": "/yurim.dev/static/media/piecetogetherstation.d8176648.png",
+    "static/media/yangyangsolbeach.9283923b.png": "/yurim.dev/static/media/yangyangsolbeach.9283923b.png",
+    "static/media/yurim_dev.580d09f3.png": "/yurim.dev/static/media/yurim_dev.580d09f3.png",
+    "static/media/yurimworld.9620724e.png": "/yurim.dev/static/media/yurimworld.9620724e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.368f4d1d.js",
+    "static/js/2.18d75576.chunk.js",
+    "static/css/main.cbc6a2d6.chunk.css",
+    "static/js/main.6dc7c961.chunk.js"
+  ]
+}
