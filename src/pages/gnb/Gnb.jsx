@@ -34,20 +34,20 @@ export function Gnb() {
       <GnbBox className="box-inner">
         <GnbHeader>
           <GnbLogo>
-            <Link exact to="/">
+            <Link exact to="/yurim.dev/">
               😊
             </Link>
           </GnbLogo>
           <GnbMenu>
             <ul ref={gnbWrapperRef}>
               <li>
-                <Link to="/career">Career</Link>
+                <Link to="/yurim.dev/career">Career</Link>
               </li>
               <li>
-                <Link to="/portfolio">Portfolio</Link>
+                <Link to="/yurim.dev/portfolio">Portfolio</Link>
               </li>
               <li>
-                <Link to="/Contact">Contact</Link>
+                <Link to="/yurim.dev/Contact">Contact</Link>
               </li>
             </ul>
           </GnbMenu>
