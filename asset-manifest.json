@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/yurim.dev/static/css/main.cbc6a2d6.chunk.css",
-    "main.js": "/yurim.dev/static/js/main.1b75fa2d.chunk.js",
-    "main.js.map": "/yurim.dev/static/js/main.1b75fa2d.chunk.js.map",
+    "main.js": "/yurim.dev/static/js/main.c85d3959.chunk.js",
+    "main.js.map": "/yurim.dev/static/js/main.c85d3959.chunk.js.map",
     "runtime-main.js": "/yurim.dev/static/js/runtime-main.368f4d1d.js",
     "runtime-main.js.map": "/yurim.dev/static/js/runtime-main.368f4d1d.js.map",
-    "static/js/2.18d75576.chunk.js": "/yurim.dev/static/js/2.18d75576.chunk.js",
-    "static/js/2.18d75576.chunk.js.map": "/yurim.dev/static/js/2.18d75576.chunk.js.map",
+    "static/js/2.a8b810bd.chunk.js": "/yurim.dev/static/js/2.a8b810bd.chunk.js",
+    "static/js/2.a8b810bd.chunk.js.map": "/yurim.dev/static/js/2.a8b810bd.chunk.js.map",
     "static/js/3.5cf3b94d.chunk.js": "/yurim.dev/static/js/3.5cf3b94d.chunk.js",
     "static/js/3.5cf3b94d.chunk.js.map": "/yurim.dev/static/js/3.5cf3b94d.chunk.js.map",
     "index.html": "/yurim.dev/index.html",
     "static/css/main.cbc6a2d6.chunk.css.map": "/yurim.dev/static/css/main.cbc6a2d6.chunk.css.map",
-    "static/js/2.18d75576.chunk.js.LICENSE.txt": "/yurim.dev/static/js/2.18d75576.chunk.js.LICENSE.txt",
+    "static/js/2.a8b810bd.chunk.js.LICENSE.txt": "/yurim.dev/static/js/2.a8b810bd.chunk.js.LICENSE.txt",
     "static/media/Bomapp.557e7f2a.png": "/yurim.dev/static/media/Bomapp.557e7f2a.png",
     "static/media/Eggslut.99783e83.png": "/yurim.dev/static/media/Eggslut.99783e83.png",
     "static/media/index.css": "/yurim.dev/static/media/about-skill-logos.s.d0741547.png",
@@ -29,8 +29,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.368f4d1d.js",
-    "static/js/2.18d75576.chunk.js",
+    "static/js/2.a8b810bd.chunk.js",
     "static/css/main.cbc6a2d6.chunk.css",
-    "static/js/main.1b75fa2d.chunk.js"
+    "static/js/main.c85d3959.chunk.js"
   ]
 }
