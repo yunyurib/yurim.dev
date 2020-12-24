@@ -1,23 +1,27 @@
 // Web site
-import Yurimworld from "./image/yurimworld.png";
-import YurimDev from "./image/yurim_dev.png";
-import Ellesse from "./image/ellesse.png";
-import Benjerry from "./image/benjerry.png";
-import Bomapp from "./image/Bomapp.png";
-import Mashup from "./image/mashup.png";
-import Miero from "./image/miero.png";
-import Eggslut from "./image/Eggslut.png";
-import Piecetogetherstation from "./image/piecetogetherstation.png";
-import Yangyangsolbeach from "./image/yangyangsolbeach.png";
-import Nav from "./image/cssnav.png";
+const Yurimworld =
+  "http://yurimxu.dothome.co.kr/image/site_list/yurimworld.png";
+const YurimDev = "http://yurimxu.dothome.co.kr/image/site_list/yurim_dev.png";
+const Ellesse = "http://yurimxu.dothome.co.kr/image/site_list/ellesse.png";
+const Benjerry = "http://yurimxu.dothome.co.kr/image/site_list/benjerry.png";
+const Bomapp = "http://yurimxu.dothome.co.kr/image/site_list/Bomapp.png";
+const Mashup = "http://yurimxu.dothome.co.kr/image/site_list/mashup.png";
+const Miero = "http://yurimxu.dothome.co.kr/image/site_list/miero.png";
+const Eggslut = "http://yurimxu.dothome.co.kr/image/site_list/Eggslut.png";
+const Piecetogetherstation =
+  "http://yurimxu.dothome.co.kr/image/site_list/piecetogetherstation.png";
+const Yangyangsolbeach =
+  "http://yurimxu.dothome.co.kr/image/site_list/yangyangsolbeach.png";
 
 // Logo
-import fmjLogo from "./image/career-skill__list_fmj.png";
-import lushLogo from "./image/career-skill__list_lush.png";
-import codepenLogo from "./image/codepen_logo.png";
-import gitHubLogo from "./image/github_logo.png";
+const fmjLogo =
+  "http://yurimxu.dothome.co.kr/image/logo/career-skill__list_fmj.png";
+const lushLogo =
+  "http://yurimxu.dothome.co.kr/image/logo/career-skill__list_lush.png";
+const codepenLogo = "http://yurimxu.dothome.co.kr/image/logo/codepen_logo.png";
+const gitHubLogo = "http://yurimxu.dothome.co.kr/image/logo/github_logo.png";
 // Design
-import cpbanner from "./image/cpbanner21.jpg";
+const cpbanner = "http://yurimxu.dothome.co.kr/image/site_list/cpbanner21.jpg";
 
 const SiteImg_List = {
   Yurimworld: Yurimworld,
@@ -30,7 +34,6 @@ const SiteImg_List = {
   Eggslut: Eggslut,
   Piecetogetherstation: Piecetogetherstation,
   Yangyangsolbeach: Yangyangsolbeach,
-  Nav: Nav,
 };
 const LogoImg_List = {
   fmjLogo: fmjLogo,

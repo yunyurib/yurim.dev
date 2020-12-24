@@ -1,3 +1,0 @@
-const SvgUrl = {};
-
-export { SvgUrl };
