@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 
 import { Morebutton } from "../../components/morebutton/Morebutton";
@@ -35,17 +35,12 @@ export function Portfolio() {
     setPortfolioItemLine(count);
   };
 
-  useEffect(() => {
-    console.log("PortfolioItemLine", PortfolioItemLine);
-  }, [PortfolioItemLine]);
-
   // createPortfolioItem li
   const createPortfolioItem = PortfolioData.filter((data) => {
     return currentCategory === "all" ? data : currentCategory === data.purpose;
   })
     .filter((data, index) => index <= PortfolioItemLine * 3 - 1)
     .map((data, index) => {
-      console.log(index);
       return (
         <PortfolioItem key={index} className="Mbox-shadow">
           <div className="rightBox Sbox-shadow">
