@@ -115,16 +115,18 @@ export function Home() {
                     Description<span className="period-mark">.</span>
                   </h5>
                   <p>
-                    Chopiee, WV Project, FairPlay, JemutShop 4개의 사이트 모두
-                    혼자 맡아 진행했으며,
+                    Chopiee, WV Project, FairPlay, JemutShop
                     <br />
-                    등 4개의 브랜드 사이트를 전담하여 운영하였으며, 사내
-                    프로그램 유지 보수 / 리뉴얼 등을 추가 진행하여 사용자 요구에
-                    맞는 환경을 구축해내었습니다.
+                    4개의 브랜드 사이트를 전담하여 운영하였습니다.
                     <br />
-                    상세페이지,룩북촬영 / 그래픽 , 배너디자인,sns, 이벤트페이지
-                    상품업데이트 , 신상의류디자인 , 컨셉기획,누끼및
-                    디테일,촬영과 코디,영상편집등을 하였습니다.
+                    사내 프로그램 유지 보수 / 리뉴얼 등을 추가 진행하여
+                    <br />
+                    사용자 요구에 맞는 환경을 구축해내었습니다.
+                    <br />
+                    단순 웹 관리에 그치지 않고, 기획, 그래픽
+                    <br />
+                    (배너 디자인, SNS 홍보 이미지, 이벤트) 디자인, 편집 등<br />
+                    다양한 분야에 도전하며, 적극적인 자세로 참여하였습니다.
                   </p>
                 </div>
                 {createHomeProjectList}
@@ -344,20 +346,22 @@ export function Home() {
         </h2>
         <HomeWorkBox className="Mbox-shadow">
           <p className="Iam">
-            웹 사이트들을 보며 웹에 호기심을 갖게 되었습니다. 처음에는 UI를
-            배우기 위해 독학으로 웹 디자인을 공부했고, HTML/CSS Markup까지
-            배우면서 움직이는 웹사이트가 재미가 있었고, 흥미가 생겨 Web
-            Publishing에 깊게 공부하여, 웹 퍼블리셔로서 기존 브랜드 담당과 신규
-            브랜드 웹 총괄로 일하여 실전 경험을 길렀습니다. 일하면서 코딩이란
-            분야가 매력적이고 더욱 깊게 배우고 많은 것을 해보고 싶어,
-            Front-End가 되고싶어졌습니다. 디자인 감각이 있는 프론트엔드 개발자가
-            되어 디자이너와 양방향 소통을 더 잘할 수 있다고 생각합니다.
+            웹 사이트들을 보며 웹에 호기심을 갖게 되었습니다.
+            <br />
+            처음에는 UI를 배우기 위해 독학으로 웹 디자인을 공부했고, HTML/CSS
+            Markup까지 배우면서 움직이는 웹사이트가 너무 재미있엇습니다. 흥미가
+            생겨 Web Publishing에 깊게 공부하여, 웹 퍼블리셔로서 기존 브랜드
+            담당과 신규 브랜드 웹 총괄로 일하여 실전 경험을 길렀습니다.
+            <br />
+            일하면서 코딩이란 분야가 매력을 느꼈습니다. 더욱 깊게 배우고 많은
+            것을 해보고 싶어져 Front-End가 되고싶어졌습니다.
+            <br />
+            디자인 감각이 있는 프론트엔드 개발자가 되면 디자이너와 양방향 소통을
+            더 잘할 수 있다고 생각합니다.
+            <br />
             학점은행제를 통한 컴퓨터공학 학사학위를 공부 중이며, Front-End
-            개발자로서 전문성을 갖추기 위해 ReactJS 공부하여 현재 사이트와{" "}
-            <a href="https://xururuca9797.github.io/yurim-world/">
-              (xururuca9797.github.io/yurim-world/)
-            </a>
-            에 적용해 개발하였습니다.
+            개발자로서 전문성을 갖추기 위해 ReactJS 공부하여 현재 사이트와
+            이외에 사이트에도 적용해 개발하였습니다.
           </p>
         </HomeWorkBox>
       </HomeSection>
@@ -404,10 +408,8 @@ const HomeWorkBox = styled.div`
   border-radius: 2rem;
   & .Iam {
     padding: 3rem 4rem;
-    font-size: 1.2rem;
-  }
-  & .Iam > a {
-    color: var(--blue);
+    font-size: 1.1rem;
+    line-height: 2rem;
   }
 `;
 const HomeSkillList = styled.ul`
@@ -493,7 +495,7 @@ const HomeWorkList = styled.ul`
   }
   & p {
     margin: 0 0 1rem;
-    font-size: 1.2rem;
-    line-height: 1.4;
+    font-size: 1.1rem;
+    line-height: 2rem;
   }
 `;
