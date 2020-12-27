@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-import { Gnb, Routes, Footer } from "./pages/Index";
-import { ScrollTop } from "./components/scrolltopbutton/ScrollTopButton";
+import { Gnb, Routes, Footer } from "../pages/Index";
+import { ScrollTop } from "../components/scrolltopbutton/ScrollTopButton";
 
 function App() {
   return (

@@ -55,10 +55,20 @@ export function Portfolio() {
             <p>- {data.purpose}</p>
             <p>- {data.keyword}</p>
             <p>- 개발언어 : {data.languageDevelopment}</p>
-            <a href={data.link} title={data.title} className="Sbox-shadow">
+            <a
+              href={data.link}
+              title={data.title}
+              className="Sbox-shadow"
+              target="blank"
+            >
               PDF
             </a>
-            <a href={data.pdf} title={data.title} className="Sbox-shadow">
+            <a
+              href={data.pdf}
+              title={data.title}
+              className="Sbox-shadow"
+              target="blank"
+            >
               Link
             </a>
           </div>
