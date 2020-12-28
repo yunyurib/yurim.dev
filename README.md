@@ -8,8 +8,8 @@
 🙆‍♀️ 코드리뷰에 임하여 다양한 의견을 듣는 것에 두려움이 없습니다
 
 ## Page
-[__Main__](https://github.com/xururuca9797/yurim-world) : 간단한 소개, 경력기술, 활동, 교육, 자격증 등
-[__Career__](https://xururuca9797.github.io/yurim.dev/career) : 세부 경력기술서
+[__Main__](https://github.com/xururuca9797/yurim-world) : 간단한 소개, 경력기술, 활동, 교육, 자격증 등<br/>
+[__Career__](https://xururuca9797.github.io/yurim.dev/career) : 세부 경력기술서<br/>
 -  [chopiee](www.chopiee.com) <br/>
 : 10-20대 여성을 타겟팅한 러블리한 무드의 온라인 멀티샵.
 -  [wvproject](www.wvproject.co.kr) <br/>
@@ -19,7 +19,7 @@
 -  [jemutshop](www.jemutshop.com)<br/>
 : 좋은 품질의 이지 캐주얼을 선보이는 남성 브랜드.
 
-[__Portfolio__](https://xururuca9797.github.io/yurim.dev/portfolio) : 경력을 제외한 웹 포트폴리오
+[__Portfolio__](https://xururuca9797.github.io/yurim.dev/portfolio) : 경력을 제외한 웹 포트폴리오<br/>
 [__Contact__](https://xururuca9797.github.io/yurim.dev/Contact) : 연락하기
 
 
