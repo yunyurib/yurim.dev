@@ -51,7 +51,7 @@ export function Home() {
         <h2>
           안녕하세요!
           <br />
-          FE 개발자 <span className="period-mark">윤유림</span>입니다.
+          반갑습니다.<span className="period-mark">윤유림</span>입니다.
         </h2>
         <p>
           저는 웹 개발에 관심이 많습니다. 다양한 환경의 프로젝트와 라이브러리

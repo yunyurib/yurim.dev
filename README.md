@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Yurim-world 🙋‍♀️
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> 안녕하세요!FE 개발자 윤유림입니다.
 
-## Available Scripts
+😊 저는 웹 개발에 관심이 많습니다.
+💻 다양한 환경의 프로젝트와 라이브러리 경험을 통한 다양한 것들을 개발하는 걸 좋아합니다.
+⚡ 모든 프로젝트를 깃허브를 활용해 관리하며 작업하였습니다.
+✨ 원활한 협업과 동료의 의견을 존중하는 태도로 재미있고 유용한 개발을 하고싶습니다.
+🙆‍♀️ 코드리뷰에 임하여 다양한 의견을 듣는 것에 두려움이 없습니다
 
-In the project directory, you can run:
+## Page
 
-### `yarn start`
+[**Main**](https://github.com/xururuca9797/yurim-world) : 간단한 소개, 경력기술, 활동, 교육, 자격증 등
+[**Career**](https://xururuca9797.github.io/yurim.dev/career) : 세부 경력기술서
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [chopiee](www.chopiee.com)
+  : 10-20대 여성을 타겟팅한 러블리한 무드의 온라인 멀티샵.
+- [wvproject](www.wvproject.co.kr)
+  : 다양한 모티브로 재해석해 패션으로 풀어내는 브랜드.
+- [fairplay](www.fairplay142.com)
+  : 20-30대 남성을 타겟팅한 스트릿패션 멀티샵.
+- [jemutshop](www.jemutshop.com)
+  : 좋은 품질의 이지 캐주얼을 선보이는 남성 브랜드.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+[**Portfolio**](https://xururuca9797.github.io/yurim.dev/portfolio) : 경력을 제외한 웹 포트폴리오
+[**Contact**](https://xururuca9797.github.io/yurim.dev/Contact) : 연락하기
 
-### `yarn test`
+## Skil 📃
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- HTML5, CSS3
+- Javascript
+- React.js
+- Styled-components
+- Route
 
-### `yarn build`
+## Links
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Link : [**View**](https://xururuca9797.github.io/yurim.dev/)

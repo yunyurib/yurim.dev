@@ -81,144 +81,25 @@ export const FmjDetailItemData = [
   },
 ];
 
-export const FmjEventItemData = [
-  {
-    title: "2019년 5월 혜택",
-    href:
-      "https://www.chopiee.com/board/board.html?code=chopiee_image2&board_cate=&num1=999982&num2=00000&type=v&&s_id=&stext=&ssubject=&shname=&scontent=&sbrand=&sgid=&datekey=&branduid=&lock=N",
-    src:
-      "http://efairplay.img2.kr/CHOPIEE/event/201905/2019_5event_detail_01.jpg",
-    brand: "chopiee",
-  },
-  {
-    title: "2019년 4월 혜택",
-    href:
-      "https://www.chopiee.com/board/board.html?code=chopiee_image2&board_cate=&num1=999983&num2=00000&type=v&&s_id=&stext=&ssubject=&shname=&scontent=&sbrand=&sgid=&datekey=&branduid=&lock=N",
-    src:
-      "http://efairplay.img2.kr/CHOPIEE/event/201904/2019_4event_page_01.jpg",
-    brand: "chopiee",
-  },
-  {
-    title: "2019년 4월 혜택",
-    href:
-      "https://www.wvproject.co.kr/board/board.html?code=moonbanggu_board20&page=5&type=v&board_cate=&num1=999974&num2=00000&number=19&lock=N",
-    src:
-      "http://efairplay.img2.kr/moonbanggu/07_site/event/201904/wv_4event_detail_01.jpg",
-    brand: "wvproject",
-  },
-  {
-    title: "2019녀 3월 혜택",
-    href:
-      "https://www.chopiee.com/board/board.html?code=chopiee_image2&board_cate=&num1=999985&num2=00000&type=v&&s_id=&stext=&ssubject=&shname=&scontent=&sbrand=&sgid=&datekey=&branduid=&lock=N",
-    src: "http://efairplay.img2.kr/CHOPIEE/event/page/cp_3event_detail_01.jpg",
-    brand: "chopiee",
-  },
-  {
-    title: "2019년 3월 혜택",
-    href:
-      "https://www.wvproject.co.kr/board/board.html?code=moonbanggu_board20&page=5&type=v&board_cate=&num1=999977&num2=00000&number=16&lock=N",
-    src:
-      "http://efairplay.img2.kr/moonbanggu/07_site/event/201903/wv_3event_detail_01.jpg",
-    brand: "wvproject",
-  },
-  {
-    title: "2019년 2월 혜택",
-    href:
-      "https://www.chopiee.com/board/board.html?code=chopiee_image2&board_cate=&num1=999988&num2=00000&type=v&&s_id=&stext=&ssubject=&shname=&scontent=&sbrand=&sgid=&datekey=&branduid=&lock=N",
-    src: "http://efairplay.img2.kr/CHOPIEE/event/board/2019_2event_page_01.jpg",
-    brand: "chopiee",
-  },
-  {
-    title: "2019년 2월 혜택",
-    href:
-      "https://www.chopiee.com/board/board.html?code=chopiee_image2&board_cate=&num1=999988&num2=00000&type=v&&s_id=&stext=&ssubject=&shname=&scontent=&sbrand=&sgid=&datekey=&branduid=&lock=N",
-    src:
-      "http://efairplay.img2.kr/moonbanggu/07_site/event/20190131_wv_2event_detail_01.jpg",
-    brand: "wvproject",
-  },
-  {
-    title: "2019년 1월 혜택",
-    href:
-      "https://www.chopiee.com/board/board.html?code=chopiee_image2&board_cate=&num1=999990&num2=00000&type=v&&s_id=&stext=&ssubject=&shname=&scontent=&sbrand=&sgid=&datekey=&branduid=&lock=N",
-    src:
-      "http://efairplay.img2.kr/CHOPIEE/event/board/201901_1event_page_01.jpg",
-    brand: "chopiee",
-  },
-  {
-    title: "2018년 12월 혜택",
-    href:
-      "https://www.chopiee.com/board/board.html?code=chopiee_image2&page=2&type=v&board_cate=&num1=999991&num2=00000&number=8&lock=N",
-    src:
-      "http://efairplay.img2.kr/CHOPIEE/event/page/20181129_cp_12event_detail_01.jpg",
-    brand: "chopiee",
-  },
-  {
-    title: "2018년 11월 혜택",
-    href:
-      "https://www.chopiee.com/board/board.html?code=chopiee_image2&page=2&type=v&board_cate=&num1=999993&num2=00000&number=7&lock=N",
-    src:
-      "http://efairplay.img2.kr/CHOPIEE/event/board/20181031_cp_11event_detail.jpg",
-    brand: "chopiee",
-  },
-  {
-    title: "2018년 10월 혜택",
-    href:
-      "https://www.chopiee.com/board/board.html?code=chopiee_image2&board_cate=&num1=999994",
-    src: "http://efairplay.img2.kr/CHOPIEE/event/board/10_coupon_jj.jpg",
-    brand: "chopiee",
-  },
-  {
-    title: "2018년 10월의 혜택",
-    href:
-      "https://www.wvproject.co.kr/board/board.html?code=moonbanggu_board20&page=6&type=v&board_cate=&num1=999985&num2=00000&number=10&lock=N",
-    src:
-      "http://efairplay.img2.kr/moonbanggu/07_site/contents_banner/10EVENT_notice.jpg",
-    brand: "wvproject",
-  },
-  {
-    title: "추석 이벤트",
-    href:
-      "https://www.chopiee.com/board/board.html?code=chopiee_image2&page=2&type=v&board_cate=&num1=999995&num2=00000&number=5&lock=N",
-    src:
-      "http://efairplay.img2.kr/CHOPIEE/event/board/20180918_ch_9event_22_26_detai.jpg",
-    brand: "chopiee",
-  },
-  {
-    title: "2018년 9월 혜택",
-    href:
-      "https://www.chopiee.com/board/board.html?code=chopiee_image2&board_cate=&num1=999996&num2=00000&type=v&&s_id=&stext=&ssubject=&shname=&scontent=&sbrand=&sgid=&datekey=&branduid=&lock=N",
-    src:
-      "http://efairplay.img2.kr/CHOPIEE/event/board/20180903_ch_9event_detail_01.jpg",
-    brand: "chopiee",
-  },
-  {
-    title: "쵸피 오픈 이벤트",
-    href:
-      "https://www.chopiee.com/board/board.html?code=chopiee_image2&page=2&type=v&board_cate=&num1=999997&num2=00000&number=3&lock=N",
-    src: "http://efairplay.img2.kr/CHOPIEE/Board/10%25coupon_jj.jpg",
-    brand: "chopiee",
-  },
-];
-
 export const FmjBannerItemData = [
   {
     title: "chopiee",
-    href: "http://yurimxu.dothome.co.kr/web/banner/cp_banner.html",
+    href: "http://yurimxu.dothome.co.kr/web/pdf/chopiee_designguide.pdf",
     src: DesignImg_List.cpbanner,
-    text: "배너디자인",
+    text: "배너, 이벤트페이지",
   },
   {
     title: "wvproject",
-    href: "http://yurimxu.dothome.co.kr/web/banner/wv_banner.html",
+    href: "http://yurimxu.dothome.co.kr/web/pdf/wvproject_designguide.pdf",
     src:
       "http://efairplay.img2.kr/moonbanggu/03_WV/2018SS/MJLP7167/MJLP7167_01_white.jpg",
-    text: "배너디자인, 룩북",
+    text: "배너, 이벤트페이지, 룩북",
   },
   {
-    title: "fairplay",
-    href: "http://yurimxu.dothome.co.kr/web/banner/fpjm_banner.html",
+    title: "fairplay, Jemut",
+    href: "http://yurimxu.dothome.co.kr/web/pdf/fairplay_designguide.pdf",
     src:
       "http://www.fairplay142.com/shopimages/efairplay/0170010166542.jpg?1601350015",
-    text: "배너디자인, sns",
+    text: "배너, 이벤트페이지, sns",
   },
 ];

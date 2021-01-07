@@ -54,22 +54,22 @@ export function Portfolio() {
             <p>- {data.days}</p>
             <p>- {data.purpose}</p>
             <p>- {data.keyword}</p>
-            <p>- 개발언어 : {data.languageDevelopment}</p>
+            <p>- {data.languageDevelopment}</p>
             <a
-              href={data.link}
+              href={data.link01}
               title={data.title}
               className="Sbox-shadow"
               target="blank"
             >
-              PDF
+              {data.link01Name}
             </a>
             <a
-              href={data.pdf}
+              href={data.link02}
               title={data.title}
               className="Sbox-shadow"
               target="blank"
             >
-              Link
+              {data.link02Name}
             </a>
           </div>
         </PortfolioItem>
@@ -139,6 +139,7 @@ const PortfolioItem = styled.li`
   }
   & h3 {
     font-size: 3rem;
+    padding-bottom: 1rem;
   }
   & .rightBox,
   &.leftBox {
@@ -166,13 +167,13 @@ const PortfolioItem = styled.li`
     }
   }
   & .leftBox p {
-    line-height: 2rem;
+    line-height: 1.5rem;
   }
   & .leftBox a {
     border-radius: 2rem;
     display: inline-block;
     padding: 0.5rem 3rem;
-    margin: 1rem;
+    margin: 2rem 1rem 0rem 1rem;
     @media only screen and (min-width: 320px) and (max-width: 768px) {
       padding: 0.5rem 0rem;
       width: 35%;

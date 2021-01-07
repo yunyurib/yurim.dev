@@ -1,10 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import {
-  FmjDetailItemData,
-  FmjEventItemData,
-  FmjBannerItemData,
-} from "./Fmj.data";
+import { FmjDetailItemData, FmjBannerItemData } from "./Fmj.data";
 import { Morebutton } from "../../components/morebutton/Morebutton";
 
 export function Fmj() {
@@ -15,40 +11,9 @@ export function Fmj() {
     setFmjDetailItemLine(count);
   };
 
-  // Fmj EventlItem More button
-  const [FmjEventItemLine, setFmjEventItemLine] = useState(1);
-  const fmjEventItemLineCountEvent = () => {
-    const count = FmjEventItemLine + 1;
-    setFmjEventItemLine(count);
-  };
-
   // Fmj DetailItem
   const createFmjDetailItem = FmjDetailItemData.filter(
     (data, index) => index <= FmjDetailItemLine * 3 - 1
-  ).map((data, index) => {
-    return (
-      <a
-        key={index}
-        className="Mbox-shadow FmjlDesinList__Link"
-        href={data.href}
-        target="blank"
-      >
-        <img
-          className="FmjlDesinList__Img Sbox-shadow"
-          src={data.src}
-          alt={data.title}
-        />
-        <h3>
-          <span>{data.brand}</span>
-          {data.title}
-        </h3>
-      </a>
-    );
-  });
-
-  // Fmj EventItem
-  const createFmjEventItem = FmjEventItemData.filter(
-    (data, index) => index <= FmjEventItemLine * 3 - 1
   ).map((data, index) => {
     return (
       <a
@@ -254,17 +219,9 @@ export function Fmj() {
       </FmjSection>
       <FmjSection className="box-inner">
         <h2 className="box__title">
-          Event Page<span className="period-mark">.</span>
-        </h2>
-        <p>이달의 혜택, 이벤트 디자인</p>
-        <FmjlDesinList>{createFmjEventItem}</FmjlDesinList>
-        <Morebutton btnEvent={fmjEventItemLineCountEvent} />
-      </FmjSection>
-      <FmjSection className="box-inner">
-        <h2 className="box__title">
           Banner<span className="period-mark">.</span>
         </h2>
-        <p>브랜드별 배너, SNS, 네이버광고</p>
+        <p>브랜드별 배너, 이벤트 디자인, 네이버광고</p>
         <FmjlDesinList>{createFmjBannerItem}</FmjlDesinList>
       </FmjSection>
     </FmjWrapper>
