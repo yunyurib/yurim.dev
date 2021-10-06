@@ -35,4 +35,4 @@
 
 ## Links
 
-- Link : [**View**](https://xururuca9797.github.io/yurim.dev/)
+- Link : [**View**](https://yunyurib.github.io/yurim.dev/)
