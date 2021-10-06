@@ -12,16 +12,6 @@
 
 **Main** : 간단한 소개, 경력기술, 활동, 교육, 자격증 등<br/>
 **Career** : 세부 경력기술서<br/>
-
-- [chopiee](www.chopiee.com) <br/>
-  : 10-20대 여성을 타겟팅한 러블리한 무드의 온라인 멀티샵.
-- [wvproject](www.wvproject.co.kr) <br/>
-  : 다양한 모티브로 재해석해 패션으로 풀어내는 브랜드.
-- [fairplay](www.fairplay142.com)<br/>
-  : 20-30대 남성을 타겟팅한 스트릿패션 멀티샵.
-- [jemutshop](www.jemutshop.com)<br/>
-  : 좋은 품질의 이지 캐주얼을 선보이는 남성 브랜드.
-
 **Portfolio** : 경력을 제외한 웹 포트폴리오<br/>
 **Contact** : 연락하기
 
