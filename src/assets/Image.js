@@ -7,6 +7,7 @@ const Bomapp = "https://i.ibb.co/N6Gbx63/Bomapp.jpg";
 const Mashup = "https://i.ibb.co/MnZkcsJ/mashup.jpg";
 const Miero = "https://i.ibb.co/F0krpPd/miero.jpg";
 const Eggslut = "https://i.ibb.co/j4MBLqZ/eggslut.jpg";
+const LoginApi = "https://i.ibb.co/DfL7DRv/2021-12-22-12-35-08.png";
 const Piecetogetherstation =
   "https://i.ibb.co/T0TQPjQ/piecetogetherstation.jpg";
 const Yangyangsolbeach = "https://i.ibb.co/hW55YKk/yangyangsolbeach.jpg";
@@ -33,6 +34,7 @@ const SiteImg_List = {
   Mashup: Mashup,
   Miero: Miero,
   Eggslut: Eggslut,
+  LoginApi : LoginApi,
   Piecetogetherstation: Piecetogetherstation,
   Yangyangsolbeach: Yangyangsolbeach,
   koail: koail,

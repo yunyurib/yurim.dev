@@ -29,5 +29,4 @@ yarn dev // dev server
 - Index
 - Career
 - Portfolio
-- Contact
 ```

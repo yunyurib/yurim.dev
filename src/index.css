@@ -150,18 +150,11 @@ var {
   max-width: 60rem;
 }
 .box__title {
-  font-size: 3rem;
-  margin: 4rem 0 2rem;
+  font-size: 2rem;
+  margin: 1.5em 0;
 }
 .box__title > span {
   font-size: 3rem;
-}
-.skll__icon {
-  width: 16px;
-  height: 16px;
-  display: inline-block;
-  margin-right: 5px;
-  background: url(./assets/image/about-skill-logos.s.png);
 }
 .didlst::before {
   position: absolute;
@@ -171,42 +164,3 @@ var {
   color: #3a7bd5;
 }
 
-.skill__re {
-  background-position: -48px 0px !important;
-}
-.skill__htcs {
-  background-position: -16px 0px !important;
-}
-.skill__ro {
-  background-position: -32px -16px !important;
-}
-.skill__sc {
-  background-position: 0px -32px !important;
-}
-.skill__sass {
-  background-position: -63px -48px !important;
-}
-.skill__jq {
-  background-position: -64px 0px !important;
-}
-.skill__bs {
-  background-position: -48px -64px !important;
-}
-.skill__git {
-  background-position: 0px -16px !important;
-}
-.skill__ps {
-  background-position: -16px -32px !important;
-}
-.skill__ir {
-  background-position: -32px -32px !important;
-}
-.skill__xd {
-  background-position: 32px -32px !important;
-}
-.skill__pro {
-  background-position: -64px -32px !important;
-}
-.skill__s {
-  background-position: -32px -64px !important;
-}

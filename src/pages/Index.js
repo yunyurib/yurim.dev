@@ -3,8 +3,5 @@ export * from "./gnb/Gnb";
 export * from "../components/scrolltopbutton/ScrollTopButton";
 export * from "./home/Home";
 export * from "./career/Career";
-export * from "./fmj/Fmj";
-export * from "./lush/Lush";
 export * from "./portfolio/Portfolio";
-export * from "./contact/Contact";
 export * from "./footer/Footer";

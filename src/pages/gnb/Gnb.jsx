@@ -50,30 +50,17 @@ export function Gnb() {
                   Portfolio
                 </Link>
               </li>
-              <li>
-                <Link exact to="/yurim.dev/Contact">
-                  Contact
-                </Link>
-              </li>
             </ul>
           </GnbMenu>
         </GnbHeader>
         <GnbLink>
           <a
-            href="https://github.com/xururuca9797"
+            href="https://github.com/yunyurib"
             target="blank"
             title="GitHub"
             className="Sbox-shadow"
           >
             <img src={LogoImg_List.gitHubLogo} alt="gitHubLogo" />
-          </a>
-          <a
-            href="https://codepen.io/your-work/"
-            target="blank"
-            title="Codepen"
-            className="Sbox-shadow"
-          >
-            <img src={LogoImg_List.codepenLogo} alt="codepenLogo" />
           </a>
         </GnbLink>
       </GnbBox>
