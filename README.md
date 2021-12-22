@@ -6,7 +6,7 @@
 
 # Environment
 
-[link](yunyurib.github.io/yurim.dev/)
+[link](https://yunyurib.github.io/yurim.dev/)
 
 ```
 yarn // install
